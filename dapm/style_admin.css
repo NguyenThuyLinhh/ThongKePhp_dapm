@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+:root {
+    --boder: #fac249;
+    --clor: #C68601;
+    --bg: #FFCA41;
+}
+
+* {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.layoutSidenav #layoutSidenav_nav #sidenavAccordion .sb-sidenav-menu .nav-link.menu_01 {
+    color: black;
+    text-decoration: none;
+}
+
+.layoutSidenav #layoutSidenav_nav #sidenavAccordion .sb-sidenav-menu a:hover {
+    color: black;
+}
+
+.sb-topnav.navbar.navbar-expand.navbar {
+    background-color: #FFF5D3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#logoimg {
+    width: 60%;
+    height: 50%;
+}
+
+#userimg {
+    width: 40px;
+    height: 40px;
+}
+
+#layoutSidenav_nav {
+    height: 2800px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+/* --css cho thống kê */
+
+#layoutSidenav {
+    float: left;
+    width: 18%;
+}
+
+#content-thongke-qtv {
+    float: right;
+    width: 82%;
+}
+
+#content-thongke-qtv h2 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+#content-thongke-qtv .search_thongke {
+    /* display: flex;
+    position: static; */
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-radius: 10px;
+    width: 90%;
+    height: 340px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #FEFFD9;
+}
+
+.search_thongke .search_vipham {
+    width: 35%;
+    float: left;
+}
+
+.search_thongke .search_vipham form {
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+
+/* font-weight: bold; */
+
+.search_thongke .search_vipham form #vipham {
+    border-radius: 5px;
+    border: var(--boder) solid 0.8px;
+    border-bottom: var(--boder) solid 3px;
+    font-size: 1rem;
+    color: rgb(20, 18, 18);
+    padding: 0.7rem 3rem 0.7rem 1rem;
+    text-transform: none;
+    background: none
+}
+
+.search_thongke .search_vipham form p {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.search_thongke .search_vipham form #vipham input {
+    border: var(--boder) solid 0.5px;
+    align-items: center;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px; */
+    /* width: 100%;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 2rem;
+    text-transform: none;
+    background: none */
+}
+
+.search_thongke .filter_quan .checkbox {
+    width: 65%;
+    /* position: relative; */
+    /* padding-right: 4rem; */
+    padding-top: 2rem;
+    /* padding-left: 5rem; */
+    float: right;
+    display: flex;
+    float: right;
+}
+
+.checkbox .checkbox_1 {
+    padding-left: 10rem;
+    line-height: 2.2rem;
+}
+
+.checkbox .checkbox_1 p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.checkbox .checkbox_2 {
+    margin-top: 52px;
+    padding-left: 10rem;
+    line-height: 2.2rem;
+}
+
+.checkbox .checkbox_1 form input:hover {
+    cursor: pointer;
+}
+
+.checkbox .checkbox_2 form input:hover {
+    cursor: pointer;
+}
+
+.search_thongke .btn_search button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 50rem;
+    background: sandybrown;
+}
+
+.search_thongke .btn_search button:hover {
+    background-color: #C68601;
+    box-shadow: 0px 15px 20px rgba(218, 83, 21, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn_search button:active {
+    transform: translateY(-1px);
+}
+
+.result_search .result_soluong_quan {
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-radius: 10px;
+    width: 90%;
+    /* height: 340px; */
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #FEFFD9;
+    padding-top: 1.3rem;
+    padding-left: 4rem;
+    padding-right: 1.3rem;
+}
+
+.result_search .result_soluong_quan .quan_soluongvp {
+    border-bottom: var(--boder) solid 1px;
+    margin-right: 3rem;
+    padding-bottom: 6px;
+}
+
+.result_search .result_soluong_quan .quan_soluongvp button {
+    background: sandybrown;
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .8rem 1rem;
+    border: 1px solid sandybrown;
+    float: right;
+    margin-left: 38rem;
+}
+
+.result_search .result_soluong_quan .quan_soluongvp h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.result_search .result_soluong_quan .quan_soluongvp span {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+/* .result_search .result_soluong_quan .quan_soluongvp button {
+    float: right;
+    margin-left: 40rem;
+} */
+
+.thongke_noibat h2 {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.thongke_noibat .quan_vp {
+    margin-top: 1rem;
+    display: flex;
+    /* padding-left: 4rem; */
+    width: 90%;
+    /* margin-left: 1rem; */
+    margin: auto;
+}
+
+.thongke_noibat .quan_vp .quan {
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-radius: 10px;
+    width: 22%;
+    height: 130px;
+    /* padding-left: 4rem; */
+    margin-left: 1.7rem;
+}
+
+.quan h3 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: var(--boder) solid 1px;
+    font-weight: bold;
+}
+
+.quan p {
+    padding-left: 5.8rem;
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.thongke_ngay {
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-radius: 10px;
+    width: 95%;
+    /* height: 340px; */
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #FEFFD9;
+    padding-top: 1.3rem;
+    /* padding-left: 1rem; */
+    margin-right: 1.3rem;
+    padding-left: 1.3rem;
+    padding-top: 3.5rem;
+    margin-top: 40px;
+}
+
+.thongke_ngay h2 {
+    font-size: 1.2rem;
+    border-bottom: var(--boder) solid 1px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.thongke_ngay .date button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    text-transform: none;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    /* background: sandybrown; */
+}
+
+.thongke_ngay .date button:hover {
+    background-color: #C68601;
+    box-shadow: 0px 15px 20px rgba(218, 83, 21, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.thongke_thang {
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-right: var(--boder) solid 3px;
+    border-radius: 10px;
+    width: 42%;
+    /* height: 340px; */
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #FEFFD9;
+    padding-top: 1.3rem;
+    padding-left: 3rem;
+    padding-right: 1.3rem;
+    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+    float: left;
+}
+
+.thongke_vp_phobien {
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-right: var(--boder) solid 3px;
+    border-radius: 10px;
+    width: 48%;
+    /* height: 340px; */
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #FEFFD9;
+    padding-top: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 10rem;
+    float: right;
+    margin-right: 2.5rem;
+}
+
+
+/* CSS tra cuu thong tin bS */
+
+#content_timkiem {
+    float: right;
+    width: 82%;
+    height: 90%;
+}
+
+#content_timkiem h2 {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+#content_timkiem h5 {
+    font-size: 1.0rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+#content_timkiem .timkiem_bs {
+    border: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #fff;
+}
+
+#content_timkiem .ketqua_bienso {
+    border: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #fff;
+}
+
+#content_timkiem select {
+    background-color: #FEFFD9;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#content_timkiem .timkiem_bs .input_button {
+    background-color: #FEFFD9;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #145C17;
+    color: #fff;
+}
+
+#content_timkiem .timkiem_bs .searchbox {
+    border: solid 0.7px;
+    border-radius: 5px;
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.ketqua_bienso table {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    width: 95%;
+    padding: 0px;
+}
+
+.ketqua_bienso table td {
+    padding: 15px 0 0 15px;
+    height: 40px;
+    text-align: left;
+}
+
+#content_timkiem .timkiem_bs .searchbox input {
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;
+    padding-left: 7px;
+    outline: none;
+}
+
+#content_timkiem .timkiem_bs .button_area {
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;
+}
+
+#content_timkiem .timkiem_bs form {
+    display: flex;
+    border-radius: 5px;
+    border-color: #fff;
+    width: 90%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#content_timkiem .timkiem_bs i {
+    margin-left: 2px;
+}
+
+table,
+th,
+td {
+    /* border-top: 1px solid #ccc; */
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 98%;
+    border: #fac249 solid 0.7px;
+    border-radius: 15px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 15px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+th {
+    margin-top: 5px;
+    background: #fac249;
+    margin-left: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f1d2;
+}
+
+
+/* style cho phần thoongs kê vi phạm theo bảng */
+
+main {
+    margin-top: 75px;
+    padding: 2rem 1.5rem;
+    background: #fffff2;
+    min-height: calc(40vh - 90px);
+    width: 95%;
+    /* margin-left: 1rem; */
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card-single {
+    display: flex;
+    justify-content: space-between;
+    background: #FEFFD9;
+    border: var(--boder) solid 0.7px;
+    border-bottom: var(--boder) solid 3px;
+    border-right: var(--boder) solid 3px;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card-single div:last-child span {
+    color: var(--clor);
+    font-size: 3rem;
+}
+
+.card-single div:first-child span {
+    font-size: 1rem;
+    color: rgb(113, 114, 116);
+}
+
+.card-single:first-child {
+    background: var(--bg);
+}
+
+
+/* .card-single:first-child h1,
+.card-single:first-child div:first-child span,
+.card-single:first-child div:first-child span {
+    color: #fff;
+} */
+
+select {
+    border: rgb(255, 99, 132) solid 1px;
+    height: 3rem;
+    width: 10rem;
+}
